@@ -1,0 +1,333 @@
+2025-07-30 12:32:12,065 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:13131
+ * Running on http://172.16.10.50:13131
+2025-07-30 12:32:12,065 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 12:32:12,066 - werkzeug - INFO -  * Restarting with stat
+2025-07-30 12:32:12,299 - werkzeug - WARNING -  * Debugger is active!
+2025-07-30 12:32:12,299 - werkzeug - INFO -  * Debugger PIN: 122-908-046
+2025-07-30 12:35:39,638 - main - INFO - Received Sonarr webhook for series Bosch (TMDb ID: 60585)
+2025-07-30 12:35:39,649 - werkzeug - INFO - 172.18.0.10 - - [30/Jul/2025 12:35:39] "[35m[1mPOST /sonarr HTTP/1.1[0m" 500 -
+2025-07-30 12:36:49,702 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:13131
+ * Running on http://172.16.10.50:13131
+2025-07-30 12:36:49,702 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 12:36:49,703 - werkzeug - INFO -  * Restarting with stat
+2025-07-30 12:36:49,938 - werkzeug - WARNING -  * Debugger is active!
+2025-07-30 12:36:49,938 - werkzeug - INFO -  * Debugger PIN: 122-908-046
+2025-07-30 12:40:04,127 - main - INFO - Received Sonarr webhook for series Bosch (TMDb ID: 60585)
+2025-07-30 12:40:04,128 - tagging - INFO - Plex Notification: series - /series/Bosch/Season 1
+2025-07-30 12:40:04,129 - urllib3.connectionpool - DEBUG - Resetting dropped connection: river.smallcreek.com.au
+2025-07-30 12:40:04,136 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library HTTP/1.1" 200 289
+2025-07-30 12:40:04,142 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections HTTP/1.1" 200 490
+2025-07-30 12:40:04,148 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/refresh?path=%2Fseries%2FBosch%2FSeason+1 HTTP/1.1" 200 0
+2025-07-30 12:40:04,148 - tagging - INFO - Plex notified to scan library
+2025-07-30 12:40:04,150 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): overseerr.smallcreek.com.au:443
+2025-07-30 12:40:04,192 - urllib3.connectionpool - DEBUG - https://overseerr.smallcreek.com.au:443 "GET /api/v1/tv/60585 HTTP/1.1" 200 132492
+2025-07-30 12:40:04,200 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeGuids=1 HTTP/1.1" 200 1008
+2025-07-30 12:40:04,206 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /system/agents?mediaType=2 HTTP/1.1" 200 924
+2025-07-30 12:40:05,543 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/metadata/13190/matches?manual=1&title=tmdb-60585&year=2020&language=en-US&agent=tv.plex.agents.series HTTP/1.1" 200 799
+2025-07-30 12:40:05,550 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeMeta=1&includeAdvanced=1&X-Plex-Container-Start=0&X-Plex-Container-Size=0 HTTP/1.1" 200 1871
+2025-07-30 12:40:05,556 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/collections?includeMeta=1&includeAdvanced=1&X-Plex-Container-Start=0&X-Plex-Container-Size=0 HTTP/1.1" 200 660
+2025-07-30 12:40:05,563 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeGuids=1&show.guid=plex%3A%2F%2Fshow%2F5d9c08364eefaa001f5d85c5 HTTP/1.1" 200 333
+2025-07-30 12:40:05,564 - tagging - ERROR - tmdb://60585 not in Plex library yet.  Waiting 10 seconds.  Attempt 1 of 5
+2025-07-30 12:40:15,572 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeGuids=1 HTTP/1.1" 200 1008
+2025-07-30 12:40:15,577 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /system/agents?mediaType=2 HTTP/1.1" 200 924
+2025-07-30 12:40:15,978 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/metadata/13190/matches?manual=1&title=tmdb-60585&year=2020&language=en-US&agent=tv.plex.agents.series HTTP/1.1" 200 799
+2025-07-30 12:40:15,983 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeGuids=1&show.guid=plex%3A%2F%2Fshow%2F5d9c08364eefaa001f5d85c5 HTTP/1.1" 200 333
+2025-07-30 12:40:15,984 - tagging - ERROR - tmdb://60585 not in Plex library yet.  Waiting 10 seconds.  Attempt 2 of 5
+2025-07-30 12:40:25,992 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeGuids=1 HTTP/1.1" 200 1008
+2025-07-30 12:40:25,997 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /system/agents?mediaType=2 HTTP/1.1" 200 924
+2025-07-30 12:40:26,396 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/metadata/13190/matches?manual=1&title=tmdb-60585&year=2020&language=en-US&agent=tv.plex.agents.series HTTP/1.1" 200 799
+2025-07-30 12:40:26,403 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeGuids=1&show.guid=plex%3A%2F%2Fshow%2F5d9c08364eefaa001f5d85c5 HTTP/1.1" 200 333
+2025-07-30 12:40:26,404 - tagging - ERROR - tmdb://60585 not in Plex library yet.  Waiting 10 seconds.  Attempt 3 of 5
+2025-07-30 12:40:36,411 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeGuids=1 HTTP/1.1" 200 1008
+2025-07-30 12:40:36,416 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /system/agents?mediaType=2 HTTP/1.1" 200 924
+2025-07-30 12:40:36,799 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/metadata/13190/matches?manual=1&title=tmdb-60585&year=2020&language=en-US&agent=tv.plex.agents.series HTTP/1.1" 200 799
+2025-07-30 12:40:36,806 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeGuids=1&show.guid=plex%3A%2F%2Fshow%2F5d9c08364eefaa001f5d85c5 HTTP/1.1" 200 333
+2025-07-30 12:40:36,807 - tagging - ERROR - tmdb://60585 not in Plex library yet.  Waiting 10 seconds.  Attempt 4 of 5
+2025-07-30 12:40:46,815 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeGuids=1 HTTP/1.1" 200 1008
+2025-07-30 12:40:46,820 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /system/agents?mediaType=2 HTTP/1.1" 200 924
+2025-07-30 12:40:47,216 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/metadata/13190/matches?manual=1&title=tmdb-60585&year=2020&language=en-US&agent=tv.plex.agents.series HTTP/1.1" 200 799
+2025-07-30 12:40:47,223 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeGuids=1&show.guid=plex%3A%2F%2Fshow%2F5d9c08364eefaa001f5d85c5 HTTP/1.1" 200 333
+2025-07-30 12:40:47,224 - tagging - ERROR - tmdb://60585 not in Plex library.  Operation failed.
+2025-07-30 12:40:47,225 - tagging - WARNING - Skipping tagging for Bosch: no Overseerr request or ratingKey.
+2025-07-30 12:40:47,226 - werkzeug - INFO - 172.18.0.10 - - [30/Jul/2025 12:40:47] "[35m[1mPOST /sonarr HTTP/1.1[0m" 204 -
+2025-07-30 16:17:19,010 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:13131
+ * Running on http://172.16.10.50:13131
+2025-07-30 16:17:19,011 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 16:17:19,012 - werkzeug - INFO -  * Restarting with stat
+2025-07-30 16:17:19,247 - werkzeug - WARNING -  * Debugger is active!
+2025-07-30 16:17:19,248 - werkzeug - INFO -  * Debugger PIN: 911-652-776
+2025-07-30 16:23:00,754 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:13131
+ * Running on http://172.16.10.50:13131
+2025-07-30 16:23:00,754 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 16:23:00,754 - werkzeug - INFO -  * Restarting with stat
+2025-07-30 16:23:00,989 - werkzeug - WARNING -  * Debugger is active!
+2025-07-30 16:23:00,990 - werkzeug - INFO -  * Debugger PIN: 911-652-776
+2025-07-30 16:27:19,102 - main - INFO - Received Sonarr webhook for series The Chosen (TMDb ID: 85077)
+2025-07-30 16:27:19,103 - tagging - INFO - Plex Notification: series - None
+2025-07-30 16:27:19,104 - urllib3.connectionpool - DEBUG - Resetting dropped connection: river.smallcreek.com.au
+2025-07-30 16:27:19,110 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library HTTP/1.1" 200 289
+2025-07-30 16:27:19,115 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections HTTP/1.1" 200 491
+2025-07-30 16:27:19,119 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/refresh HTTP/1.1" 200 0
+2025-07-30 16:27:49,120 - tagging - INFO - Plex notified to scan library
+2025-07-30 16:27:49,121 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): overseerr.smallcreek.com.au:443
+2025-07-30 16:27:49,776 - urllib3.connectionpool - DEBUG - https://overseerr.smallcreek.com.au:443 "GET /api/v1/tv/85077 HTTP/1.1" 200 101634
+2025-07-30 16:27:49,784 - tagging - WARNING - Skipping tagging for The Chosen: no Overseerr request or ratingKey.
+2025-07-30 16:27:49,785 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 16:27:49] "[35m[1mPOST /sonarr HTTP/1.1[0m" 204 -
+2025-07-30 16:30:42,004 - main - INFO - Received Sonarr webhook for series The Chosen (TMDb ID: 85077)
+2025-07-30 16:30:42,005 - tagging - INFO - Plex Notification: series - None
+2025-07-30 16:30:42,005 - urllib3.connectionpool - DEBUG - Resetting dropped connection: river.smallcreek.com.au
+2025-07-30 16:30:42,012 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/refresh HTTP/1.1" 200 0
+2025-07-30 16:31:12,012 - tagging - INFO - Plex notified to scan library
+2025-07-30 16:31:12,014 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): overseerr.smallcreek.com.au:443
+2025-07-30 16:31:12,055 - urllib3.connectionpool - DEBUG - https://overseerr.smallcreek.com.au:443 "GET /api/v1/tv/85077 HTTP/1.1" 200 101634
+2025-07-30 16:31:12,060 - tagging - WARNING - Skipping tagging for The Chosen: no Overseerr request or ratingKey.
+2025-07-30 16:31:12,060 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 16:31:12] "[35m[1mPOST /sonarr HTTP/1.1[0m" 204 -
+2025-07-30 16:37:03,806 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:13131
+ * Running on http://172.16.10.50:13131
+2025-07-30 16:37:03,806 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 16:37:03,807 - werkzeug - INFO -  * Restarting with stat
+2025-07-30 16:37:04,034 - werkzeug - WARNING -  * Debugger is active!
+2025-07-30 16:37:04,034 - werkzeug - INFO -  * Debugger PIN: 911-652-776
+2025-07-30 16:37:13,158 - main - INFO - Received Sonarr webhook for series The Chosen (TMDb ID: 85077)
+2025-07-30 16:37:13,158 - tagging - INFO - Plex Notification: series - /series/The Chosen
+2025-07-30 16:37:13,162 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library HTTP/1.1" 200 289
+2025-07-30 16:37:13,167 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections HTTP/1.1" 200 488
+2025-07-30 16:37:13,173 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/refresh?path=%2Fseries%2FThe+Chosen HTTP/1.1" 200 0
+2025-07-30 16:37:43,174 - tagging - INFO - Plex notified to scan library
+2025-07-30 16:37:43,175 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): overseerr.smallcreek.com.au:443
+2025-07-30 16:37:43,207 - urllib3.connectionpool - DEBUG - https://overseerr.smallcreek.com.au:443 "GET /api/v1/tv/85077 HTTP/1.1" 200 101634
+2025-07-30 16:37:43,210 - tagging - WARNING - Skipping tagging for The Chosen: no Overseerr request or ratingKey.
+2025-07-30 16:37:43,211 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 16:37:43] "[35m[1mPOST /sonarr HTTP/1.1[0m" 204 -
+2025-07-30 16:39:02,875 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:13131
+ * Running on http://172.16.10.50:13131
+2025-07-30 16:39:02,875 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 16:39:02,876 - werkzeug - INFO -  * Restarting with stat
+2025-07-30 16:39:03,102 - werkzeug - WARNING -  * Debugger is active!
+2025-07-30 16:39:03,102 - werkzeug - INFO -  * Debugger PIN: 911-652-776
+2025-07-30 16:39:14,434 - main - INFO - Received Sonarr webhook for series The Chosen (TMDb ID: 85077)
+2025-07-30 16:39:14,434 - tagging - INFO - Plex Notification: series - /series/The Chosen
+2025-07-30 16:39:14,436 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library HTTP/1.1" 200 289
+2025-07-30 16:39:14,439 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections HTTP/1.1" 200 491
+2025-07-30 16:39:14,442 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/refresh?path=%2Fseries%2FThe+Chosen HTTP/1.1" 200 0
+2025-07-30 16:39:44,443 - tagging - INFO - Plex notified to scan library
+2025-07-30 16:39:44,444 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): overseerr.smallcreek.com.au:443
+2025-07-30 16:39:44,480 - urllib3.connectionpool - DEBUG - https://overseerr.smallcreek.com.au:443 "GET /api/v1/tv/85077 HTTP/1.1" 200 101634
+2025-07-30 16:39:44,490 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 16:39:44] "[35m[1mPOST /sonarr HTTP/1.1[0m" 500 -
+2025-07-30 16:43:30,980 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:13131
+ * Running on http://172.16.10.50:13131
+2025-07-30 16:43:30,980 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 16:43:30,981 - werkzeug - INFO -  * Restarting with stat
+2025-07-30 16:43:31,211 - werkzeug - WARNING -  * Debugger is active!
+2025-07-30 16:43:31,211 - werkzeug - INFO -  * Debugger PIN: 911-652-776
+2025-07-30 16:43:40,991 - main - INFO - Received Sonarr webhook for series The Chosen (TMDb ID: 85077)
+2025-07-30 16:43:40,991 - tagging - INFO - Plex Notification: series - /series/The Chosen
+2025-07-30 16:43:40,993 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library HTTP/1.1" 200 289
+2025-07-30 16:43:40,996 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections HTTP/1.1" 200 490
+2025-07-30 16:43:40,999 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/refresh?path=%2Fseries%2FThe+Chosen HTTP/1.1" 200 0
+2025-07-30 16:44:10,999 - tagging - INFO - Plex notified to scan library
+2025-07-30 16:44:11,001 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): overseerr.smallcreek.com.au:443
+2025-07-30 16:44:11,045 - urllib3.connectionpool - DEBUG - https://overseerr.smallcreek.com.au:443 "GET /api/v1/tv/85077 HTTP/1.1" 200 101634
+2025-07-30 16:44:11,055 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 16:44:11] "[35m[1mPOST /sonarr HTTP/1.1[0m" 500 -
+2025-07-30 16:45:07,908 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:13131
+ * Running on http://172.16.10.50:13131
+2025-07-30 16:45:07,908 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 16:45:07,908 - werkzeug - INFO -  * Restarting with stat
+2025-07-30 16:45:08,136 - werkzeug - WARNING -  * Debugger is active!
+2025-07-30 16:45:08,136 - werkzeug - INFO -  * Debugger PIN: 911-652-776
+2025-07-30 16:45:11,196 - main - INFO - Received Sonarr webhook for series The Chosen (TMDb ID: 85077)
+2025-07-30 16:45:11,196 - tagging - INFO - Plex Notification: series - /series/The Chosen
+2025-07-30 16:45:11,198 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library HTTP/1.1" 200 289
+2025-07-30 16:45:11,200 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections HTTP/1.1" 200 491
+2025-07-30 16:45:11,203 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/refresh?path=%2Fseries%2FThe+Chosen HTTP/1.1" 200 0
+2025-07-30 16:45:41,203 - tagging - INFO - Plex notified to scan library
+2025-07-30 16:45:41,206 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): overseerr.smallcreek.com.au:443
+2025-07-30 16:45:41,246 - urllib3.connectionpool - DEBUG - https://overseerr.smallcreek.com.au:443 "GET /api/v1/tv/85077 HTTP/1.1" 200 101634
+2025-07-30 16:45:41,254 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 16:45:41] "[35m[1mPOST /sonarr HTTP/1.1[0m" 500 -
+2025-07-30 16:47:04,101 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:13131
+ * Running on http://172.16.10.50:13131
+2025-07-30 16:47:04,101 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 16:47:04,102 - werkzeug - INFO -  * Restarting with stat
+2025-07-30 16:47:04,333 - werkzeug - WARNING -  * Debugger is active!
+2025-07-30 16:47:04,334 - werkzeug - INFO -  * Debugger PIN: 911-652-776
+2025-07-30 16:47:07,769 - main - INFO - Received Sonarr webhook for series The Chosen (TMDb ID: 85077)
+2025-07-30 16:47:07,769 - tagging - INFO - Plex Notification: series - /series/The Chosen
+2025-07-30 16:47:07,771 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library HTTP/1.1" 200 289
+2025-07-30 16:47:07,773 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections HTTP/1.1" 200 491
+2025-07-30 16:47:07,776 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/refresh?path=%2Fseries%2FThe+Chosen HTTP/1.1" 200 0
+2025-07-30 16:47:37,776 - tagging - INFO - Plex notified to scan library
+2025-07-30 16:47:37,778 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): overseerr.smallcreek.com.au:443
+2025-07-30 16:47:37,821 - urllib3.connectionpool - DEBUG - https://overseerr.smallcreek.com.au:443 "GET /api/v1/tv/85077 HTTP/1.1" 200 101634
+2025-07-30 16:47:37,824 - tagging - INFO - Requester: None - ratingKey None
+2025-07-30 16:47:37,824 - tagging - WARNING - Skipping tagging for The Chosen: no Overseerr request or ratingKey.
+2025-07-30 16:47:37,825 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 16:47:37] "[35m[1mPOST /sonarr HTTP/1.1[0m" 204 -
+2025-07-30 16:52:30,079 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:13131
+ * Running on http://172.16.10.50:13131
+2025-07-30 16:52:30,079 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 16:52:30,080 - werkzeug - INFO -  * Restarting with stat
+2025-07-30 16:52:30,342 - werkzeug - WARNING -  * Debugger is active!
+2025-07-30 16:52:30,342 - werkzeug - INFO -  * Debugger PIN: 911-652-776
+2025-07-30 16:52:33,269 - main - INFO - Received Sonarr webhook for series The Chosen (TMDb ID: 85077)
+2025-07-30 16:52:33,270 - tagging - INFO - Plex Notification: series - /series/The Chosen
+2025-07-30 16:52:33,272 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library HTTP/1.1" 200 289
+2025-07-30 16:52:33,274 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections HTTP/1.1" 200 491
+2025-07-30 16:52:33,278 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/refresh?path=%2Fseries%2FThe+Chosen HTTP/1.1" 200 0
+2025-07-30 16:53:03,279 - tagging - INFO - Plex notified to scan library
+2025-07-30 16:53:03,280 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): overseerr.smallcreek.com.au:443
+2025-07-30 16:53:03,326 - urllib3.connectionpool - DEBUG - https://overseerr.smallcreek.com.au:443 "GET /api/v1/tv/85077 HTTP/1.1" 200 101634
+2025-07-30 16:53:03,333 - tagging - INFO - Requester: None - ratingKey None
+2025-07-30 16:53:03,333 - tagging - WARNING - Skipping tagging for The Chosen: no Overseerr request or ratingKey.
+2025-07-30 16:53:03,333 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 16:53:03] "[35m[1mPOST /sonarr HTTP/1.1[0m" 204 -
+2025-07-30 16:55:50,887 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:13131
+ * Running on http://172.16.10.50:13131
+2025-07-30 16:55:50,887 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 16:55:50,888 - werkzeug - INFO -  * Restarting with stat
+2025-07-30 16:55:51,119 - werkzeug - WARNING -  * Debugger is active!
+2025-07-30 16:55:51,119 - werkzeug - INFO -  * Debugger PIN: 911-652-776
+2025-07-30 16:56:02,756 - main - INFO - Received Sonarr webhook for series The Chosen (TMDb ID: 85077)
+2025-07-30 16:56:02,756 - tagging - INFO - Plex Notification: series - /series/The Chosen
+2025-07-30 16:56:02,759 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library HTTP/1.1" 200 289
+2025-07-30 16:56:02,761 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections HTTP/1.1" 200 490
+2025-07-30 16:56:02,765 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/refresh?path=%2Fseries%2FThe+Chosen HTTP/1.1" 200 0
+2025-07-30 16:56:32,765 - tagging - INFO - Plex notified to scan library
+2025-07-30 16:56:32,766 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): overseerr.smallcreek.com.au:443
+2025-07-30 16:56:32,802 - urllib3.connectionpool - DEBUG - https://overseerr.smallcreek.com.au:443 "GET /api/v1/tv/85077 HTTP/1.1" 200 102399
+2025-07-30 16:56:32,808 - tagging - INFO - Searching Plex for tmdb://85077
+2025-07-30 16:56:32,809 - urllib3.connectionpool - DEBUG - Resetting dropped connection: river.smallcreek.com.au
+2025-07-30 16:56:32,818 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeGuids=1 HTTP/1.1" 200 1007
+2025-07-30 16:56:32,824 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /system/agents?mediaType=2 HTTP/1.1" 200 924
+2025-07-30 16:56:33,249 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/metadata/13190/matches?manual=1&title=tmdb-85077&year=2020&language=en-US&agent=tv.plex.agents.series HTTP/1.1" 200 723
+2025-07-30 16:56:33,256 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeMeta=1&includeAdvanced=1&X-Plex-Container-Start=0&X-Plex-Container-Size=0 HTTP/1.1" 200 1870
+2025-07-30 16:56:33,264 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/collections?includeMeta=1&includeAdvanced=1&X-Plex-Container-Start=0&X-Plex-Container-Size=0 HTTP/1.1" 200 660
+2025-07-30 16:56:33,273 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeGuids=1&show.guid=plex%3A%2F%2Fshow%2F5d9c091608fddd001f2a7482 HTTP/1.1" 200 1024
+2025-07-30 16:56:33,274 - tagging - DEBUG - Returned plex_item: <Show:13305:The-Chosen>
+2025-07-30 16:56:33,274 - tagging - INFO - ratingKey 13305 found.
+2025-07-30 16:56:33,274 - tagging - INFO - Requester: 1 - ratingKey 13305
+2025-07-30 16:56:33,285 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/metadata/13305 HTTP/1.1" 200 11305
+2025-07-30 16:56:33,300 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/metadata/13305?includeBandwidths=1&includeChapters=1&includeFields=thumbBlurHash%2CartBlurHash&includeGeolocation=1&includeLoudnessRamps=1&includeMarkers=1 HTTP/1.1" 200 11365
+2025-07-30 16:56:33,328 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "PUT /library/sections/4/all?collection.locked=1&collection%5B0%5D.tag.tag=Luke%27s%20Series&id=13305&type=2 HTTP/1.1" 200 0
+2025-07-30 16:56:33,329 - tagging - INFO -     -> Tagged 'The Chosen' into collection 'Luke's Series'
+2025-07-30 16:56:33,330 - werkzeug - INFO - 127.0.0.1 - - [30/Jul/2025 16:56:33] "[35m[1mPOST /sonarr HTTP/1.1[0m" 204 -
+2025-07-30 17:05:28,385 - main - INFO - Received Sonarr webhook for series Bosch (TMDb ID: 60585)
+2025-07-30 17:05:28,385 - tagging - INFO - Plex Notification: series - /series/Bosch
+2025-07-30 17:05:28,386 - urllib3.connectionpool - DEBUG - Resetting dropped connection: river.smallcreek.com.au
+2025-07-30 17:05:28,394 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/refresh?path=%2Fseries%2FBosch HTTP/1.1" 200 0
+2025-07-30 17:05:58,395 - tagging - INFO - Plex notified to scan library
+2025-07-30 17:05:58,396 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): overseerr.smallcreek.com.au:443
+2025-07-30 17:05:58,456 - urllib3.connectionpool - DEBUG - https://overseerr.smallcreek.com.au:443 "GET /api/v1/tv/60585 HTTP/1.1" 200 145088
+2025-07-30 17:05:58,471 - tagging - INFO - Searching Plex for tmdb://60585
+2025-07-30 17:05:58,472 - urllib3.connectionpool - DEBUG - Resetting dropped connection: river.smallcreek.com.au
+2025-07-30 17:05:58,542 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeGuids=1 HTTP/1.1" 200 1007
+2025-07-30 17:05:58,548 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /system/agents?mediaType=2 HTTP/1.1" 200 924
+2025-07-30 17:05:59,781 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/metadata/13190/matches?manual=1&title=tmdb-60585&year=2020&language=en-US&agent=tv.plex.agents.series HTTP/1.1" 200 799
+2025-07-30 17:05:59,823 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeGuids=1&show.guid=plex%3A%2F%2Fshow%2F5d9c08364eefaa001f5d85c5 HTTP/1.1" 200 1127
+2025-07-30 17:05:59,824 - tagging - DEBUG - Returned plex_item: <Show:23780:Bosch>
+2025-07-30 17:05:59,824 - tagging - INFO - ratingKey 23780 found.
+2025-07-30 17:05:59,825 - tagging - INFO - Requester: 2 - ratingKey 23780
+2025-07-30 17:05:59,865 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/metadata/23780 HTTP/1.1" 200 12869
+2025-07-30 17:05:59,918 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/metadata/23780?includeBandwidths=1&includeChapters=1&includeFields=thumbBlurHash%2CartBlurHash&includeGeolocation=1&includeLoudnessRamps=1&includeMarkers=1 HTTP/1.1" 200 12937
+2025-07-30 17:05:59,978 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "PUT /library/sections/4/all?collection.locked=1&collection%5B0%5D.tag.tag=Leesa%27s%20Series&id=23780&type=2 HTTP/1.1" 200 0
+2025-07-30 17:05:59,979 - tagging - INFO -     -> Tagged 'Bosch' into collection 'Leesa's Series'
+2025-07-30 17:05:59,979 - werkzeug - INFO - 172.18.0.8 - - [30/Jul/2025 17:05:59] "[35m[1mPOST /sonarr HTTP/1.1[0m" 204 -
+2025-07-30 17:08:15,934 - main - INFO - Received Sonarr webhook for series Bosch (TMDb ID: 60585)
+2025-07-30 17:08:15,934 - tagging - INFO - Plex Notification: series - /series/Bosch
+2025-07-30 17:08:15,935 - urllib3.connectionpool - DEBUG - Resetting dropped connection: river.smallcreek.com.au
+2025-07-30 17:08:15,939 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/refresh?path=%2Fseries%2FBosch HTTP/1.1" 200 0
+2025-07-30 17:08:45,940 - tagging - INFO - Plex notified to scan library
+2025-07-30 17:08:45,940 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): overseerr.smallcreek.com.au:443
+2025-07-30 17:08:45,985 - urllib3.connectionpool - DEBUG - https://overseerr.smallcreek.com.au:443 "GET /api/v1/tv/60585 HTTP/1.1" 200 135958
+2025-07-30 17:08:45,989 - tagging - INFO - Searching Plex for tmdb://60585
+2025-07-30 17:08:45,990 - urllib3.connectionpool - DEBUG - Resetting dropped connection: river.smallcreek.com.au
+2025-07-30 17:08:46,001 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeGuids=1 HTTP/1.1" 200 1007
+2025-07-30 17:08:46,006 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /system/agents?mediaType=2 HTTP/1.1" 200 924
+2025-07-30 17:08:46,339 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/metadata/13190/matches?manual=1&title=tmdb-60585&year=2020&language=en-US&agent=tv.plex.agents.series HTTP/1.1" 200 799
+2025-07-30 17:08:46,344 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/all?includeGuids=1&show.guid=plex%3A%2F%2Fshow%2F5d9c08364eefaa001f5d85c5 HTTP/1.1" 200 1146
+2025-07-30 17:08:46,345 - tagging - DEBUG - Returned plex_item: <Show:23780:Bosch>
+2025-07-30 17:08:46,345 - tagging - INFO - ratingKey 23780 found.
+2025-07-30 17:08:46,345 - tagging - INFO - Requester: 2 - ratingKey 23780
+2025-07-30 17:08:46,355 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/metadata/23780 HTTP/1.1" 200 12928
+2025-07-30 17:08:46,372 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "PUT /library/sections/4/all?collection.locked=1&collection%5B0%5D.tag.tag=Leesa%27s%20Series&collection%5B1%5D.tag.tag=Leesa%27s%20Series&id=23780&type=2 HTTP/1.1" 200 0
+2025-07-30 17:08:46,373 - tagging - INFO -     -> Tagged 'Bosch' into collection 'Leesa's Series'
+2025-07-30 17:08:46,373 - werkzeug - INFO - 172.18.0.8 - - [30/Jul/2025 17:08:46] "[35m[1mPOST /sonarr HTTP/1.1[0m" 204 -
+2025-07-30 17:12:21,617 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:13131
+ * Running on http://172.16.10.50:13131
+2025-07-30 17:12:21,617 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 17:12:21,618 - werkzeug - INFO -  * Restarting with stat
+2025-07-30 17:12:21,953 - werkzeug - WARNING -  * Debugger is active!
+2025-07-30 17:12:21,953 - werkzeug - INFO -  * Debugger PIN: 911-652-776
+2025-07-30 17:12:32,438 - main - INFO - Received Radarr webhook for movie Test Title (TMDb ID: 0)
+2025-07-30 17:12:32,439 - werkzeug - INFO - 172.18.0.4 - - [30/Jul/2025 17:12:32] "POST /radarr HTTP/1.1" 200 -
+2025-07-30 17:16:15,622 - main - INFO - Received Sonarr webhook for series Bosch (TMDb ID: 60585)
+2025-07-30 17:16:15,622 - tagging - INFO - Plex Notification: series - /series/Bosch
+2025-07-30 17:16:15,624 - urllib3.connectionpool - DEBUG - Resetting dropped connection: river.smallcreek.com.au
+2025-07-30 17:16:15,632 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library HTTP/1.1" 200 289
+2025-07-30 17:16:15,637 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections HTTP/1.1" 200 489
+2025-07-30 17:16:15,643 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/4/refresh?path=%2Fseries%2FBosch HTTP/1.1" 200 0
+2025-07-30 17:16:23,811 - werkzeug - INFO -  * Detected change in '/home/luke/plex_tagger/main.py', reloading
+2025-07-30 17:16:23,866 - werkzeug - INFO -  * Restarting with stat
+2025-07-30 17:16:24,153 - werkzeug - WARNING -  * Debugger is active!
+2025-07-30 17:16:24,153 - werkzeug - INFO -  * Debugger PIN: 911-652-776
+2025-07-30 17:19:59,880 - werkzeug - INFO -  * Detected change in '/home/luke/plex_tagger/tagging.py', reloading
+2025-07-30 17:19:59,930 - werkzeug - INFO -  * Restarting with stat
+2025-07-30 17:20:00,196 - werkzeug - WARNING -  * Debugger is active!
+2025-07-30 17:20:00,196 - werkzeug - INFO -  * Debugger PIN: 911-652-776
+2025-07-30 17:20:10,540 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:13131
+ * Running on http://172.16.10.50:13131
+2025-07-30 17:20:10,541 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 17:20:10,541 - werkzeug - INFO -  * Restarting with stat
+2025-07-30 17:20:10,778 - werkzeug - WARNING -  * Debugger is active!
+2025-07-30 17:20:10,779 - werkzeug - INFO -  * Debugger PIN: 911-652-776
+2025-07-30 17:20:55,025 - main - INFO - Received Radarr webhook for movie Test Title (TMDb ID: 0)
+2025-07-30 17:20:55,025 - werkzeug - INFO - 172.18.0.4 - - [30/Jul/2025 17:20:55] "POST /radarr HTTP/1.1" 200 -
+2025-07-30 17:21:39,183 - main - INFO - Received Sonarr webhook for series Test Title (TMDb ID: 0)
+2025-07-30 17:21:39,183 - werkzeug - INFO - 172.18.0.8 - - [30/Jul/2025 17:21:39] "POST /sonarr HTTP/1.1" 200 -
+2025-07-30 17:24:38,988 - main - INFO - Received Radarr webhook for movie Ice Road: Vengeance (TMDb ID: 1119878)
+2025-07-30 17:24:38,988 - tagging - INFO - Plex Notification: movie - /movies/Ice Road - Vengeance (2025)
+2025-07-30 17:24:38,990 - urllib3.connectionpool - DEBUG - Resetting dropped connection: river.smallcreek.com.au
+2025-07-30 17:24:38,996 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library HTTP/1.1" 200 289
+2025-07-30 17:24:39,001 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections HTTP/1.1" 200 491
+2025-07-30 17:24:39,008 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/5/refresh?path=%2Fmovies%2FIce+Road+-+Vengeance+%282025%29 HTTP/1.1" 200 0
+2025-07-30 17:25:09,009 - tagging - INFO - Plex notified to scan library
+2025-07-30 17:25:09,010 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): overseerr.smallcreek.com.au:443
+2025-07-30 17:25:09,051 - urllib3.connectionpool - DEBUG - https://overseerr.smallcreek.com.au:443 "GET /api/v1/movie/1119878 HTTP/1.1" 200 14442
+2025-07-30 17:25:09,053 - tagging - INFO - Searching Plex for tmdb://1119878
+2025-07-30 17:25:09,054 - urllib3.connectionpool - DEBUG - Resetting dropped connection: river.smallcreek.com.au
+2025-07-30 17:25:09,066 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/5/all?includeGuids=1 HTTP/1.1" 200 1334
+2025-07-30 17:25:09,072 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /system/agents?mediaType=1 HTTP/1.1" 200 945
+2025-07-30 17:25:09,364 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/metadata/16618/matches?manual=1&title=tmdb-1119878&year=2021&language=en-US&agent=tv.plex.agents.movie HTTP/1.1" 200 556
+2025-07-30 17:25:09,377 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/5/all?includeMeta=1&includeAdvanced=1&X-Plex-Container-Start=0&X-Plex-Container-Size=0 HTTP/1.1" 200 1525
+2025-07-30 17:25:09,381 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/5/collections?includeMeta=1&includeAdvanced=1&X-Plex-Container-Start=0&X-Plex-Container-Size=0 HTTP/1.1" 200 650
+2025-07-30 17:25:09,386 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/sections/5/all?includeGuids=1&guid=plex%3A%2F%2Fmovie%2F644de0ec416ddf40409b7a08 HTTP/1.1" 200 1266
+2025-07-30 17:25:09,386 - tagging - DEBUG - Returned plex_item: <Movie:23796:Ice-Road:-Vengeance>
+2025-07-30 17:25:09,387 - tagging - INFO - ratingKey 23796 found.
+2025-07-30 17:25:09,387 - tagging - INFO - Requester: 2 - ratingKey 23796
+2025-07-30 17:25:09,393 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/metadata/23796 HTTP/1.1" 200 3292
+2025-07-30 17:25:09,400 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "GET /library/metadata/23796?includeBandwidths=1&includeChapters=1&includeFields=thumbBlurHash%2CartBlurHash&includeGeolocation=1&includeLoudnessRamps=1&includeMarkers=1 HTTP/1.1" 200 3490
+2025-07-30 17:25:09,412 - urllib3.connectionpool - DEBUG - http://river.smallcreek.com.au:32400 "PUT /library/sections/5/all?collection.locked=1&collection%5B0%5D.tag.tag=Leesa%27s%20Movies&id=23796&type=1 HTTP/1.1" 200 0
+2025-07-30 17:25:09,412 - tagging - INFO -     -> Tagged 'Ice Road: Vengeance' into collection 'Leesa's Movies'
+2025-07-30 17:25:09,413 - werkzeug - INFO - 172.18.0.4 - - [30/Jul/2025 17:25:09] "[35m[1mPOST /radarr HTTP/1.1[0m" 204 -
