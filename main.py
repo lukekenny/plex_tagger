@@ -40,6 +40,9 @@ def sonarr_webhook():
     title = payload.get("series", {}).get("title")
     tmdb_id = payload.get("series", {}).get("tmdbId")
     seriesPath = payload.get("series", {}).get("path")
+    plex_req_json = json.dumps(payload)
+    app.logger.info(f"Plex JSON Request:")
+    app.logger.info(plex_req_json)
     app.logger.info(f"Received Sonarr webhook for series {title} (TMDb ID: {tmdb_id})")
     if int(tmdb_id) == 0:
         return "OK", 200
