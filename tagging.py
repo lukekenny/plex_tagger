@@ -72,10 +72,10 @@ def notify_plex(media_type, destinationPath):
     current_app.logger.info(f"Plex Notification: {media_type} - {destinationPath}")
     if media_type == "movie":
         #notify_library = plex.library.section('Movies')
-        notify_library = plex.library.sectionByID(7)
+        notify_library = plex.library.sectionByID(5)
     else:
         #notify_library = plex.library.section('Series')
-        notify_library = plex.library.sectionByID(8)
+        notify_library = plex.library.sectionByID(4)
     notify_library.update(destinationPath)
     current_app.logger.info(f"Plex notified to scan library... waiting 5 seconds...")
     time.sleep(5)
